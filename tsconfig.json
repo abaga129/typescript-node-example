@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "noImplicitAny": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "outDir": "dist/",
+    "rootDir": "./",
+    "sourceMap": true,
+    "declaration": true,
+    "moduleResolution": "node",
+    "removeComments": false,
+    "lib": [
+      "es2017",
+      "es2016.array.include",
+      "dom"
+    ],
+    "typeRoots": [
+      "./lib"
+    ],
+    "skipLibCheck": false,
+  },
+  "angularCompilerOptions": {
+    "skipTemplateCodegen": true,
+    "skipMetadataEmit": false,
+    "strictMetadataEmit": true,
+    "annotationsAs": "decorators"
+ }
+}
